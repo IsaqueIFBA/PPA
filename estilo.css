@@ -5,12 +5,12 @@
 }
 
 .container{
-    max-width: 1400px;
+    min-width: 1400px;
     margin: 0 auto;
 }
+
 :root{
-    --Preto: #00000
-    
+    --Preto: #00000;
     --fonte-titulo: "Harmattan", sans-serif;
     --fonte-texto: "Geologica", sans-serif;
 }
@@ -24,17 +24,20 @@ header {
     max-height: 80px;
     
   }
-  
   .header-container {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    gap: 15px;
+    justify-content:space-around;
+    
   }
-  
   .logo img {
     height: 55px;
-    margin-left: 10px;
+  }
+  #menu > ul{
+    display: flex;
+    gap:40px;
+    position: relative;
+    right: 200px;
   }
   #menu li{
     color: white;
@@ -43,3 +46,81 @@ header {
   #menu a{
     text-decoration:none;
   }
+  #sobrenos{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    gap:15px;
+    padding: 30px;
+  }
+  #sobrenos img{
+    width: 550px;
+    margin: 10px auto;
+    margin-left: 110px;
+    margin-top: 70px;
+  }
+  #sobrenos p{
+    font-size: 25px;
+  }
+  #sobrenos h1{
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+  } 
+  #descricao1 p{
+    font-size: 25px;
+    margin: 20px;
+  }
+  #descricao1 h1{
+    font-size: 35px;
+    margin: 10px;
+    margin-left: 250px;
+  } 
+  #descricao{
+    display: flex;
+    gap: 60px;
+    margin-left: 300px;
+  }
+  #descricao h2{
+    font-size: 19px;
+    align-items: center;
+    text-align: center;
+  }
+  #titulo{
+    display:flex;
+    justify-content:space-around;
+  }
+  #titulo>img{
+    height:300px;
+    margin-top:20px;
+    margin-bottom:20px;
+  
+  }
+  #ppa h1{
+    margin-left: 400px;
+  }
+  #titulo h1{
+    font-size: 100px;
+  }
+  footer img{
+    width: 1585px;
+  }
+  #professores div{
+    display:flex;
+  }
+  #equipes{
+    background-color:black;
+    color:white;
+  }
+  #equipes img{
+    background-color:white;
+    border-radius:100px;
+  }
+  #ppa {
+    font-size:25px;
+  }
+  #professores{
+    font-size:25px;
+  }
+  
