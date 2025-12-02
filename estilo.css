@@ -3,3 +3,43 @@
     padding:0;
     box-sizing:border-box;
 }
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+:root{
+    --Preto: #00000
+    
+    --fonte-titulo: "Harmattan", sans-serif;
+    --fonte-texto: "Geologica", sans-serif;
+}
+
+body{
+    font-family: var(--fonte-texto);
+}
+header {
+    background-color: black;
+    padding: 10px 0;
+    max-height: 80px;
+    
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+  
+  .logo img {
+    height: 55px;
+    margin-left: 10px;
+  }
+  #menu li{
+    color: white;
+    list-style:none;
+  }
+  #menu a{
+    text-decoration:none;
+  }
