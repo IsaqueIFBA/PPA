@@ -81,7 +81,8 @@ header {
   #descricao{
     display: flex;
     gap: 60px;
-    justify-items:center;
+    justify-content:center;
+    text-align:center;
   }
   #descricao h2{
     font-size: 19px;
