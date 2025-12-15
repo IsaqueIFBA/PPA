@@ -8,13 +8,14 @@
     min-width: 1400px;
     margin: 0 auto;
 }
-
+img{
+  max-width:100%;
+}
 :root{
     --Preto: #00000;
     --fonte-titulo: "Harmattan", sans-serif;
     --fonte-texto: "Geologica", sans-serif;
 }
-
 body{
     font-family: var(--fonte-texto);
 }
@@ -80,7 +81,7 @@ header {
   #descricao{
     display: flex;
     gap: 60px;
-    margin-left: 300px;
+    justify-items:center;
   }
   #descricao h2{
     font-size: 19px;
@@ -104,7 +105,7 @@ header {
     font-size: 100px;
   }
   footer img{
-    width: 1585px;
+    width:100%;
   }
   #professores div{
     display:flex;
@@ -112,10 +113,6 @@ header {
   #equipes{
     background-color:black;
     color:white;
-  }
-  #equipes img{
-    background-color:white;
-    border-radius:100px;
   }
   #ppa {
     font-size:25px;
