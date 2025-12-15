@@ -120,4 +120,6 @@ header {
   #professores{
     font-size:25px;
   }
-  
+  #banner img{
+    width:100%;
+  }
