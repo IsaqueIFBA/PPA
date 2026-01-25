@@ -56,17 +56,13 @@ header {
     padding: 30px;
   }
 
-  #bt-SN {
-    display: grid;
-    grid-column: 1;
-  }
-
   #SN-img{
     display: grid;
-    grid-column: 2 / -1;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
     width: 550px;
     margin: 10px auto;
-    margin-top: 70px;
+    margin-top: 90px;
   }
   #sobrenos p{
     font-size: 25px;
@@ -137,18 +133,89 @@ header {
   }
 
   .bt-branco{
-
     width: 200px;
     height: 50px;
     font-family: var(--fonte-texto);
     background-color: white;
     font-size: 1.5rem;
     border-radius: 20px;
-    display:  inline-block;
-    text-decoration: none;
-  }
-
-  .bt-branco a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
     text-decoration: none;
     color: black;
+    margin-top: 20px;
+}
+
+  .bt-branco p {
+    padding-top: 5px;
+    text-decoration: none;
+    color: black;
+  }
+  .cursos img{
+    height:200px;
+    width: 200px;
+    margin-left: 100px;
+  }
+  .cursos p{
+    margin: 5px;
+  }
+  .cursos h1{
+    margin: 15px 0;
+    text-align: center;
+  }
+  .cursos{
+    background-color: black;
+    width: 380px;
+    text-align: center;
+    color: aliceblue;
+    margin: 20px;
+    border: 10px white solid;
+    border-radius: 10px;
+  }
+  .qrap1{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    justify-items: center;
+    padding: 40px 0;
+  }
+  .c11 img{
+    width: 420px;
+    margin-left: 0px;
+  }
+  .introducao{
+    font-size: 25px;   
+    border: 20px black solid; 
+    padding: 10px;
+  }
+  #cursossup{
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .conclusao{
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  #qrtb1 img{
+    height: 300px;
+  }
+  .titulohome{
+    margin-left:550px;
+  }
+  .tituloqrtr{
+    margin-left: 580px;
+    margin-top: 20px;
+  }
+  #VG-A{
+    background-color: black;
+    color: white;
   }
