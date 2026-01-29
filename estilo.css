@@ -5,8 +5,10 @@
 }
 
 .container{
-    min-width: 1400px;
     margin: 0 auto;
+}
+body{
+  padding: 0 30px;
 }
 img{
   max-width:100%;
@@ -20,7 +22,7 @@ body{
     font-family: var(--fonte-texto);
 }
 header {
-    background-color: black;
+    background-color: rgb(53, 53, 53);
     padding: 10px 0;
     max-height: 80px;
     
@@ -35,20 +37,21 @@ header {
     height: 55px;
   }
   #menu > ul{
+
     display: flex;
-    gap:40px;
+    gap:70px;
     position: relative;
-    right: 200px;
+    right: 100px;
   }
   #menu li{
-    color: white;
+    color: rgb(255, 255, 255);
     list-style:none;
   }
   #menu a{
     text-decoration:none;
   }
   #sobrenos{
-    background-color: black;
+    background-color: rgb(61, 61, 61);
     display: grid;
     grid-template-columns: 1fr 1fr;
     color: white;
@@ -119,11 +122,14 @@ header {
     display:flex;
   }
   #equipes{
-    background-color:black;
+    background-color:rgb(31, 31, 31);
     color:white;
   }
   #ppa {
     font-size:25px;
+    background-color: #5a189a;
+    color: white;
+    padding: 25px 0;
   }
   #professores{
     font-size:25px;
@@ -166,16 +172,16 @@ header {
     text-align: center;
   }
   .cursos{
-    background-color: black;
+    background-color: rgb(156, 156, 156);
     width: 380px;
     text-align: center;
     color: aliceblue;
     margin: 20px;
-    border: 10px white solid;
+    border: 10px black solid;
     border-radius: 10px;
   }
   .qrap1{
-    background-color: black;
+    background-color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
