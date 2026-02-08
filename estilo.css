@@ -17,6 +17,10 @@ img{
     --Preto: #00000;
     --fonte-titulo: "Harmattan", sans-serif;
     --fonte-texto: "Geologica", sans-serif;
+    --azure: #E6F2FF;
+    --azulla: #CCDCFF;
+    --azullm: #B3BEFF;
+
 }
 body{
     font-family: var(--fonte-texto);
