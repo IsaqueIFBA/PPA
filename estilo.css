@@ -8,9 +8,7 @@
 .container{
     margin: 0 auto;
 }
-body{
-  padding: 0 30px;
-}
+
 img{
   max-width:100%;
 }
@@ -18,24 +16,34 @@ img{
     --Preto: #00000;
     --fonte-titulo: "Harmattan", sans-serif;
     --fonte-texto: "Geologica", sans-serif;
-    --azure: #E6F2FF;
-    --azulla: #CCDCFF;
-    --azullm: #B3BEFF;
+    --cinza: #F5F5F5;
+    --neutro: #F2F2F2;
+    --roxor: #6F46A6;
+    --roxoi: #511F73;
+    --roxob: #431259;
+    --lv:#DDD6E8;
 }
 body{
     font-family: var(--fonte-texto);
+    background-color:var(--neutro);
 }
 header {
-    background-color: rgb(53, 53, 53);
+    background-color: var(--lv);
     padding: 10px 0;
     max-height: 80px;
-    
   }
   .header-container {
     display: flex;
     align-items: center;
     justify-content:space-around;
     
+  }
+  #titulobanner{
+    background-color: rgb(95, 54, 199);;
+    color: white;
+  }
+  main{
+    padding-top: 0px;
   }
   .logo img {
     height: 55px;
@@ -48,19 +56,20 @@ header {
     right: 100px;
   }
   #menu li{
-    color: rgb(255, 255, 255);
+    color: var(--roxob);
     list-style:none;
   }
   #menu a{
     text-decoration:none;
   }
   #sobrenos{
-    background-color: rgb(61, 61, 61);
+    background-color: var(--neutro);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    color: white;
     gap:15px;
     padding: 30px;
+    background-color: rgb(104, 104, 104);
+    color: white;
   }
 
   #SN-img{
@@ -102,6 +111,8 @@ header {
   #titulo{
     display:flex;
     justify-content:space-around;
+    padding-top: 40px;
+    background-color: rgb(255, 255, 255);
   }
   #titulo>img{
     height:300px;
@@ -114,6 +125,9 @@ header {
   }
   #titulo h1{
     font-size: 100px;
+  }
+  footer{
+    background-color:var(--lv);
   }
   footer img{
     width:100%;
@@ -138,8 +152,65 @@ header {
   #professores{
     font-size:25px;
   }
+
+  #banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+  }
+
+  #titulobanner {
+    width: 100%;
+    font-size: 2.2rem;
+    padding: 20px;
+  }
+
+  .banners {
+    color: white;
+    width: 45%;
+    min-width: 300px;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(132, 97, 219);
+  }
+  .banners > h3{
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+
   #banner img{
-    width:100%;
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    margin-bottom: 25px;
+  }
+
+  .banners h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .banners a {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+
+  .banners a:hover {
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
   }
 
   .bt-branco{
@@ -156,13 +227,134 @@ header {
     text-decoration: none;
     color: black;
     margin-top: 20px;
-}
+  }
+
+  .bt-branco a:hover {
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+  }
+
+  #destaques {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+
+  #destaques > h1 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #333;
+  }
+
+  .destaques-article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .destaques-article .titulohome {
+    margin: 0 0 20px 0;
+    font-size: 1.8rem;
+    color: #000;
+    text-align: center;
+  }
+
+  .destaques-article img {
+    height: 250px;
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+
+  .destaques-article > a {
+    background-color: var(--roxor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    height: 55px;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    max-width: 220px;
+  }
+
+  .destaques-article section {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+  }
 
   .bt-branco p {
     padding-top: 5px;
     text-decoration: none;
     color: black;
   }
+
+  .roadmap-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+  #roadmap {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#roadmap .titulohome {
+    margin: 0;
+    display: block;
+    width: 100%;
+}
+
+#roadmap > p {
+    max-width: 800px;
+    margin: 10px auto 30px auto;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 25px;
+    width: 30%;
+    min-width: 300px;;
+}
+
+.card h2 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid var(--roxor);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.card p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+}
+
   .cursos img{
     height:200px;
     width: 200px;
@@ -207,6 +399,7 @@ header {
     margin: 20px;
     padding: 5px;
     border-radius: 10px;
+    text-align: center;
   }
   .conclusao{
     background-color: black;
@@ -219,13 +412,82 @@ header {
     height: 300px;
   }
   .titulohome{
-    margin-left:550px;
+    text-align: center;
   }
   .tituloqrtr{
-    margin-left: 580px;
+    text-align: center;
     margin-top: 20px;
   }
-  #VG-A{
-    background-color: black;
-    color: white;
+  #VG-A {
+    text-align: center;
+    padding: 20px;
+}
+
+.vagas-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card-vaga {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+    min-width: 300px;
+    text-align: left;
+}
+
+.card-vaga h2 {
+    color: #222;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    border-bottom: 5px solid var(--roxor);
+    padding-bottom: 10px;
+}
+
+.card-vaga p {
+    font-size: 0.95rem;
+    color: #444;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+  footer {
+    padding: 40px 0;
+    border-top: 4px solid var(--azullm);
+    text-align: center;
   }
+
+  footer .container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+  footer h2 {
+    width: 100%;
+    text-align: center;
+    color: var(--azure);
+    font-family: var(--fonte-titulo);
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+footer article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
