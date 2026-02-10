@@ -120,9 +120,7 @@ header {
     margin-bottom:20px;
   
   }
-  #ppa h1{
-    margin-left: 400px;
-  }
+
   #titulo h1{
     font-size: 100px;
   }
@@ -206,6 +204,19 @@ header {
     border-radius: 25px;
     border: 2px solid white;
 }
+
+  .qrap1 a {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 20px;
+  }
 
   .banners a:hover {
     color: black;
