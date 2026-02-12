@@ -203,7 +203,7 @@ header {
     font-size: 1.2rem;
     font-weight: bold;
     border-radius: 25px;
-    border: 2px solid white;
+    border: 2px solid rgb(90, 24, 154);
 }
 
   .qrap1 a {
@@ -526,3 +526,10 @@ footer img {
     height: 45px;
     object-fit: contain;
 }
+
+/*segue o link das paletas do site:
+tons de roxo:
+https://coolors.co/palette/10002b-240046-3c096c-5a189a-7b2cbf-9d4edd-c77dff-e0aaff
+tons de branco/cinza:
+https://coolors.co/palette/14110f-34312d-7e7f83-d9c5b2-f3f3f4
+*/
