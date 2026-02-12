@@ -196,8 +196,8 @@ header {
 
   .banners a {
     display: inline-block;
-    background-color: white;
-    color: black;
+    background-color: rgb(90, 24, 154);
+    color: rgb(243, 243, 244);
     padding: 12px 30px;
     text-decoration: none;
     font-size: 1.2rem;
