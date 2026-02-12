@@ -526,10 +526,95 @@ footer img {
     height: 45px;
     object-fit: contain;
 }
+@media screen and (max-width: 426px){
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    header {
+        max-height: none;
+        padding: 20px 0;
+    }
+    .header-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    #menu > ul {
+        right: 0;
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+    #menu li {
+        font-size: 14px;
+    }
+    #titulobanner {
+        font-size: 1.5rem;
+        padding: 15px;
+    }
 
-/*segue o link das paletas do site:
-tons de roxo:
-https://coolors.co/palette/10002b-240046-3c096c-5a189a-7b2cbf-9d4edd-c77dff-e0aaff
-tons de branco/cinza:
-https://coolors.co/palette/14110f-34312d-7e7f83-d9c5b2-f3f3f4
-*/
+    .banners {
+        width: 100%;
+        min-width: unset;
+    }
+
+    #banner img {
+        width: 100%;
+        height: auto;
+    }
+    #titulo {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #titulo h1 {
+        font-size: 50px;
+    }
+    #titulo > img {
+        height: auto;
+        width: 80%;
+        margin: 0 auto;
+    }
+    #sobrenos {
+        grid-template-columns: 1fr;
+        padding: 20px;
+        text-align: center;
+    }
+    #SN-img {
+        width: 100%;
+        margin-top: 20px;
+        grid-column: 1;
+    }
+    .qrap1 {
+        grid-template-columns: 1fr; 
+        padding: 20px 10px;
+    }
+    .cursos {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .cursos img {
+        margin-left: 0; 
+        width: 150px;
+        height: auto;
+    }
+    .card-vaga {
+        width: 100%;
+    }
+    .galeria-tech img {
+        width: 100%;
+        height: auto;
+    }
+    footer .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card {
+        width: 100%;
+    }
+    #descricao {
+        flex-direction: column;
+        align-items: center;
+    }
+}
