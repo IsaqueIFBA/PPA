@@ -18,7 +18,7 @@ img{
     --fonte-texto: "Geologica", sans-serif;
     --cinza: #F5F5F5;
     --neutro: #F2F2F2;
-    --roxor: #6F46A6;
+    --roxor: #3C096C;
     --roxoi: #511F73;
     --roxob: #431259;
     --lv:#DDD6E8;
@@ -401,6 +401,23 @@ header {
     justify-items: center;
     padding: 40px 0;
   }
+
+  .galeria-tech {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 0;
+  }
+
+  .galeria-tech img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
   .c11 img{
     width: 420px;
     margin-left: 0px;
