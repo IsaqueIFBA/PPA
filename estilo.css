@@ -87,6 +87,8 @@ header {
   }
   #sobrenos p{
     font-size: 25px;
+    text-align: justify;
+    font-weight: 500;
   }
   #sobrenos h1{
     font-size: 40px;
@@ -150,7 +152,7 @@ header {
     font-size:25px;
     background-color: rgb(164, 120, 206);
     color: white;
-    padding: 25px 0;
+    
   }
   #professores{
     font-size:25px;
@@ -239,6 +241,7 @@ header {
     font-size: 1.5rem;
     border-radius: 20px;
     display: flex;
+    font-weight: 600;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
@@ -309,9 +312,16 @@ header {
   .partes{
     padding-bottom: 50px;
     padding-top: 50px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
   }
+
+  .partes p{
+    text-align: justify;
+    font-size: 24px;
+
+  }
+
   .destaques-article section {
     background-color: white;
     border-radius: 20px;
@@ -453,7 +463,11 @@ header {
     height: 300px;
   }
   .titulohome{
+    padding-bottom: 2.5%;
+    padding-left: 3%;
     text-align: center;
+    font-size: 36px;
+    font-weight: 700;
   }
   .tituloqrtr{
     text-align: center;
