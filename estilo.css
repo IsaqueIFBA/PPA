@@ -115,20 +115,20 @@ header {
     align-items: center;
     text-align: center;
   }
-  #titulo{
+  .titulo{
     display:flex;
     justify-content:space-around;
     padding-top: 40px;
     margin-bottom: 10px;
   }
-  #titulo>img{
+  .titulo > img{
     height:300px;
     margin-top:20px;
     margin-bottom:20px;
   
   }
 
-  #titulo h1{
+  .titulo h1{
     font-size: 100px;
   }
   footer{
@@ -673,3 +673,35 @@ footer img {
             background-color: #f3eaff;
         }
 }
+
+#agenda{
+  display: block;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+#agenda h1{
+  font-size: 50px;
+  padding-right: 35%;
+  padding-bottom: 3%;
+  padding-top: 2%;
+}
+
+#agenda a{
+    padding-top: 1%;
+    padding-bottom: 4%;
+    display: inline-block;
+    background-color: rgb(90, 24, 154);
+    color: rgb(243, 243, 244);
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 2px solid rgb(90, 24, 154);
+}
+
+.imgagenda{
+  padding-left: 10%;
+}
+
