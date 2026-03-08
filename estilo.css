@@ -711,17 +711,23 @@ footer img {
             font-weight: 600;
             font-size: 1rem;
             letter-spacing: 0.02em;
+            padding-top: 25px;
+            padding-bottom: 25px;
             border-color: #6c757d;                 
         }
 
     .agenda-escolar td {
                 color: #0b090a;
                 background-color: #ffffff;
+                margin-top: 25px;
+                margin-bottom: 25px;
             }
 
     .agenda-escolar td:first-child {
                 font-weight: 700;
-                background-color: #fcf8ff;          
+                background-color: #fcf8ff;
+                padding-top: 25px;
+                padding-bottom: 25px;   
             }
 
     .table-responsive {
@@ -734,10 +740,14 @@ footer img {
 
     .agenda-escolar tbody tr:hover td {
                 background-color: #faf5ff;
+                padding-top: 25px;
+                padding-bottom: 25px;
             }
 
     .agenda-escolar tbody tr:hover td:first-child {
                 background-color: #f3eaff;
+                padding-top: 25px;
+                padding-bottom: 25px;
             }
     
     .agenda-escolar {
