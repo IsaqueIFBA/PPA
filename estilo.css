@@ -546,6 +546,7 @@ footer img {
     height: 45px;
     object-fit: contain;
 }
+
 @media screen and (max-width: 426px){
     .container {
         width: 100%;
@@ -586,6 +587,11 @@ footer img {
     #titulo {
         flex-direction: column;
         text-align: center;
+    }
+    
+    #home{
+      display: block;
+      max-width: 100%;
     }
 
     #titulo h1 {
@@ -708,7 +714,7 @@ footer img {
 .agenda-escolar th {
             background-color: #3c096c;
             color: #fffcf2;
-            font-weight: 600;
+            font-weight: 700;
             font-size: 1rem;
             letter-spacing: 0.02em;
             padding-top: 25px;
@@ -721,10 +727,19 @@ footer img {
                 background-color: #ffffff;
                 margin-top: 25px;
                 margin-bottom: 25px;
+                font-weight: 600;
+            }
+
+    .agenda-escolar tr.prova td {
+                background-color: #ffe566;
+            }
+
+    .agenda-escolar tr.prova td:first-child {
+                background-color: #ffe14c;
             }
 
     .agenda-escolar td:first-child {
-                font-weight: 700;
+                font-weight: 800;
                 background-color: #fcf8ff;
                 padding-top: 25px;
                 padding-bottom: 25px;   
@@ -756,3 +771,16 @@ footer img {
                 border-collapse: collapse;
                 text-align: center;
             }
+ 
+    .atencao{
+      padding-left: 5%;
+      padding-right: 5%;
+      text-align: center;
+      font-weight: 600;
+      font-size: 18px;
+      padding-bottom: 5%;
+    }
+
+    mark{
+      background-color: #ffe566;
+    }
