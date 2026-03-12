@@ -745,6 +745,18 @@ footer img {
                 padding-bottom: 25px;   
             }
 
+    .agenda-escolar tbody tr.prova:hover td {
+                background-color: #ffd819;
+                padding-top: 25px;
+                padding-bottom: 25px;
+            }
+
+    .agenda-escolar tbody tr.prova:hover td:first-child {
+                background-color: #ffd400;
+                padding-top: 25px;
+                padding-bottom: 25px;
+            }
+
     .table-responsive {
                 width: 100%;
                 overflow-x: auto;
